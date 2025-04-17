@@ -5,7 +5,7 @@ set fileThree=dbms
 
 echo Compiling %fileOne%.cpp , %fileTwo%.cpp and %fileThree%.cpp...
 
-g++ %fileOne%.cpp %fileTwo%.cpp %fileThree%.cpp -o %fileOne%.exe
+g++ %fileOne%.cpp %fileTwo%.cpp %fileThree%.cpp -o MiniDBMS.exe
 
 if %errorlevel% neq 0 (
     echo Compilation failed!
@@ -13,6 +13,6 @@ if %errorlevel% neq 0 (
     exit /b %errorlevel%
 )
 
-echo Running %fileOne%.exe...
-%fileOne%.exe
+echo Running MiniDBMS.exe...
+MiniDBMS.exe
 pause

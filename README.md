@@ -66,8 +66,13 @@ cd MiniDBMS
 
 ### 2️⃣ Compile
 ```bash
-g++ main.cpp src/dbms.cpp src/Parser.cpp -o MiniDBMS
+g++ main.cpp src/dbms.cpp src/Parser.cpp -o MiniDBMS 
 ```
+
+Or you can also use 
+'''bash
+    ./start.bat
+'''
 
 ### 3️⃣ Run
 ```bash
@@ -114,9 +119,9 @@ Open to feedback, suggestions, and contributions! If you’d like to extend this
 
 ## 🔗 Connect With Me
 
-📧 [ajaysvasan@gmail.com](mailto:ajaysvasan@gmail.com)  
-📎 [LinkedIn](https://www.linkedin.com/in/ajaysvasan)  
-🌟 [Portfolio Projects](https://github.com/ajaysvasan)
+📧 [ajay192006@gmail.com](mailto:ajay192006@gmail.com)  
+📎 [LinkedIn](https://www.linkedin.com/in/ajay-s-vasan-584111291/)  
+
 
 ---
 

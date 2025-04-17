@@ -66,13 +66,13 @@ cd MiniDBMS
 
 ### 2️⃣ Compile
 ```bash
-g++ main.cpp src/dbms.cpp src/Parser.cpp -o MiniDBMS 
+g++ main.cpp src/dbms.cpp src/Parser.cpp -o MiniDBMS
+
+    OR use 
+./start.bat
+
 ```
 
-Or you can also use 
-'''bash
-    ./start.bat
-'''
 
 ### 3️⃣ Run
 ```bash
